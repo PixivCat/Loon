@@ -1,0 +1,23 @@
+#!name = 兔喜生活
+#!desc = 兔喜生活小程序去逛逛
+#!openUrl = 
+#!author = MetroSet
+#!tag = 
+#!system = 
+#!system_version = 
+#!loon_version = 3.2.1(749)
+#!homepage = https://github.com/enews/Loon
+#!date = 2024-09-25 15:45:58
+
+
+# 兔喜生活
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.ad.engine.getPagePopInfos, REJEC
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.queryTakeoutGoodsInfo, REJEC
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.querySafetyGoodsByRule, REJEC
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.mt.search.queryTakeoutCouponLocal, REJEC
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.queryFilmSelectGoodsList, REJEC
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.cms.getTxshActivityForApp, REJEC
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.queryLLGoodsForSecondPage, REJEC
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.film.queryHotFilm, REJEC
+URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.getLink, REJEC
+URL-REGEX,^https?:\/\/fscdn.zto.com\/GetPublicFile\/.*jpg, REJEC
