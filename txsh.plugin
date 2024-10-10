@@ -11,16 +11,16 @@
 
 [Rewrite]
 # 兔喜生活
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.ad.engine.getPagePopInfos, reject
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.queryTakeoutGoodsInfo, reject
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.querySafetyGoodsByRule, reject
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.mt.search.queryTakeoutCouponLocal, reject
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.queryFilmSelectGoodsList, reject
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.cms.getTxshActivityForApp, reject
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.queryLLGoodsForSecondPage, reject
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.film.queryHotFilm, reject
-URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.getLink, reject
-URL-REGEX,^https?:\/\/fscdn.zto.com\/GetPublicFile\/.*jpg, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.ad.engine.getPagePopInfos, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.queryTakeoutGoodsInfo, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.querySafetyGoodsByRule, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.mt.search.queryTakeoutCouponLocal, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.queryFilmSelectGoodsList, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.cms.getTxshActivityForApp, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.queryLLGoodsForSecondPage, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.film.queryHotFilm, reject
+^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.getLink, reject
+^https?:\/\/fscdn.zto.com\/GetPublicFile\/.*jpg, reject
 
 [MitM]
 hostname = txsh.gw.zt-express.com,fscdn.zto.com
