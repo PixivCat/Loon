@@ -9,7 +9,7 @@
 #!homepage = https://github.com/enews/Loon
 #!date = 2024-09-25 15:45:58
 
-
+[Rule]
 # 兔喜生活
 URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.ad.engine.getPagePopInfos, REJEC
 URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.queryTakeoutGoodsInfo, REJEC
