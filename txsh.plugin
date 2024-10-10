@@ -21,3 +21,6 @@ URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.queryLLGoodsF
 URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.film.queryHotFilm, REJEC
 URL-REGEX,^https?:\/\/txsh.gw.zt-express.com\/tuxi.txsh.goods.core.getLink, REJEC
 URL-REGEX,^https?:\/\/fscdn.zto.com\/GetPublicFile\/.*jpg, REJEC
+
+[MitM]
+hostname = txsh.gw.zt-express.com,fscdn.zto.com
