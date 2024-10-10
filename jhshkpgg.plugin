@@ -1,0 +1,16 @@
+#!name = 建行生活
+#!desc = 建行生活去开屏广告
+#!openUrl = 
+#!author = MetroSet
+#!tag = 去广告
+#!homepage=https://github.com/enews/Loon
+#!raw-url=https://github.com/enews/Loon/raw/main/jhshkpgg.plugin
+#!date = 2024-10-10 20:45:58
+
+[Rewrite]
+# 建行生活
+^https?:\/\/yunbusiness.ccb.com\/clp_service\/txCtrl\?txcode=A3341A009 reject
+
+
+[MitM]
+hostname = yunbusiness.ccb.com
