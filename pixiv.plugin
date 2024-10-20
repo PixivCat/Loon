@@ -1,0 +1,15 @@
+#!name = Pixiv去广告
+#!desc = Pixiv去广告
+#!openUrl = 
+#!author = ddgksf2013[https://github.com/ddgksf2013]
+#!tag = 去广告
+#!homepage=https://github.com/PixivCat/Loon
+#!raw-url=https://github.com/PixivCat/Loon/raw/main/pixiv.plugin
+#!date = 2024-10-10 17:45:58
+
+[Script]
+# Pixiv去除广告 @ddgksf2013
+http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) script-path=https://github.com/ddgksf2013/Scripts/raw/master/pixivAds.js, requires-body=true, timeout=60, tag=pixivAds
+
+[MitM]
+hostname = oauth.secure.pixiv.net
