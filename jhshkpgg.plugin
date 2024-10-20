@@ -3,8 +3,9 @@
 #!openUrl = 
 #!author = Pixivcat[https://github.com/Pixivcat]
 #!tag = 去广告
-#!homepage=https://github.com/enews/Loon
-#!raw-url=https://github.com/enews/Loon/raw/main/jhshkpgg.plugin
+#!homepage=https://github.com/PixivCat/Loon
+#!raw-url=https://github.com/PixivCat/Loon/raw/main/jhshkpgg.plugin
+#!icon = https://raw.githubusercontent.com/PixivCat/Loon/main/icon/jhsh.png
 #!date = 2024-10-10 20:45:58
 
 [Rewrite]
