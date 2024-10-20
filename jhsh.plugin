@@ -1,0 +1,26 @@
+#!name = 建行生活
+#!desc = 建行生活去开屏广告和获取签到cookie
+#!openUrl = 
+#!author = PixivCat[https://github.com/PixivCat]
+#!tag = 去广告
+#!homepage=https://github.com/PixivCat/Loon
+#!raw-url=https://github.com/PixivCat/Loon/raw/main/jhsh.plugin
+#!icon = https://raw.githubusercontent.com/PixivCat/Loon/main/icon/jhsh.png
+#!date = 2024-10-20 14:45:58
+
+[Argument]
+arg1 = switch,true,tag=获取签到cookie
+
+
+[Script]
+http-request https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, requires-body=true, timeout=60, enable = {arg1}, tag=jhsh_checkIn
+
+
+
+[Rewrite]
+# 建行生活
+^https?:\/\/yunbusiness.ccb.com\/clp_service\/txCtrl\?txcode=A3341A009 reject
+
+
+[MitM]
+hostname = yunbusiness.ccb.com
