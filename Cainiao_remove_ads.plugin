@@ -1,0 +1,35 @@
+#!name = 淘宝菜鸟小程序去广告
+#!desc = 淘宝菜鸟小程序去广告
+#!author = PixivCat[https://github.com/PixivCat]
+#!homepage=https://github.com/PixivCat/Loon
+#!icon = https://raw.githubusercontent.com/PixivCat/Loon/main/icon/Cainiao.png
+#!date = 2024-10-31 17:45:58
+
+[mitm]
+hostname =guide-acs4miniapp-inner.m.taobao.com
+
+
+[Rewrite]
+#屏蔽淘宝菜鸟裹裹广告
+^https:\/\/guide-acs4miniapp-inner.m.taobao.com\/gw\/mtop.cainiao.adx.flyad.getad.* url reject
+
+[Rule]
+# 移除广告下发请求
+AND, ((URL-REGEX, ^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch), (USER-AGENT, Cainiao4iPhone*)), REJECT
+DOMAIN, adsmind.ugdtimg.com, REJECT
+DOMAIN, amdc.m.youku.com, REJECT
+DOMAIN, apiv4-iyes.youku.com, REJECT
+DOMAIN, httpdns.alicdn.com, REJECT
+DOMAIN, huichuan-mc.sm.cn, REJECT
+DOMAIN, huichuan.sm.cn, REJECT
+DOMAIN, iyes.youku.com, REJECT
+DOMAIN, mc.atm.youku.com, REJECT
+DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT
+DOMAIN, vali-ugc.cp31.ott.cibntv.net, REJECT
+DOMAIN, yk-ssp.ad.youku.com, REJECT
+DOMAIN, ykad-data.youku.com, REJECT
+
+
+
+
+
