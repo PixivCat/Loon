@@ -5,7 +5,7 @@
 #!tag = 去广告
 #!loon_version = 3.2.1(749)
 #!homepage = https://github.com/enews/Loon
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/12306.png
+#!icon = https://raw.githubusercontent.com/PixivCat/Loon/main/icon/12306.png
 #!date = 2024-10-19 17:20:29
 
 [Rule]
