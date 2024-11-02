@@ -1,0 +1,17 @@
+#!name = 航旅纵横
+#!desc = 去除航旅纵横开屏广告和app内部广告图片
+#!author = RuCu6[https://github.com/RuCu6]
+#!tag = 去广告
+#!loon_version = 3.2.1(749)
+#!homepage = https://github.com/enews/Loon
+#!icon = https://raw.githubusercontent.com/PixivCat/Loon/main/icon/Umetrip.png
+#!date = 2024-11-01 17:20:29
+
+[Rule]
+URL-REGEX,^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native,REJECT
+
+[Script]
+http-response ^http?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ script-path=https://kelee.one/Resource/Script/Umetrip/Umetrip_remove_ads.js, tag=移除首页广告
+
+[MitM]
+hostname = 114.115.217.129, home.umetrip.com
