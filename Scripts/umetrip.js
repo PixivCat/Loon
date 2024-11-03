@@ -3,8 +3,7 @@ const header = $request.headers;
 const ua = $request.headers.rpid||$request.headers.Rpid;
 const blockIds = [
 	"1000018",
-	"1130016",
-	"1120001"
+	"1130016"
 ];
 
 if(blockIds.includes(ua)){
