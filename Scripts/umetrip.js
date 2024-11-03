@@ -3,7 +3,6 @@ const header = $request.headers;
 const ua = $request.headers.rpid||$request.headers.Rpid;
 const blockIds = [
 	"1000018",
-	//"1900001",
 	"1130016",
 	"1120001"
 ];
