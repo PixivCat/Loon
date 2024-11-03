@@ -8,11 +8,11 @@
 #!date = 2024-11-01 17:20:29
 
 [Rewrite]
-^https?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native reject
+^https?:\/\/(startup)\.umetrip\.com\/gateway\/api\/umetrip\/native reject
 ^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite reject-dict
 
 [Script]
-http-response ^https?:\/\/(bkclient|umerp|home)\.umetrip\.com(\.cn){0,1}\/gateway\/api\/umetrip\/native script-path=https://raw.githubusercontent.com/PixivCat/Loon/main/Scripts/umetrip.js, timeout=60, tag=umetrip
+http-response ^https?:\/\/(bkclient|umerp|home|discardrp)\.umetrip\.com(\.cn){0,1}\/gateway\/api\/umetrip\/native script-path=https://raw.githubusercontent.com/PixivCat/Loon/main/Scripts/umetrip.js, timeout=60, tag=umetrip
 
 [MitM]
-hostname = umerp.umetrip.com, umerp.umetrip.com.cn, home.umetrip.com, bkclient.umetrip.com.cn,  startup.umetrip.com, oss.umetrip.com
+hostname = umerp.umetrip.com, umerp.umetrip.com.cn, home.umetrip.com, bkclient.umetrip.com.cn,discardrp.umetrip.com,  startup.umetrip.com, oss.umetrip.com
