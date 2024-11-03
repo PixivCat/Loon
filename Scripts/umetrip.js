@@ -2,7 +2,6 @@ const url = $request.url;
 const header = $request.headers;
 const ua = $request.headers.rpid||$request.headers.Rpid;
 const blockIds = [
-	"1000026",
 	"1000018",
 	"1900001",
 	"1130016",
