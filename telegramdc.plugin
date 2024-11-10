@@ -5,10 +5,10 @@
 #!date = 2024-04-29 23:55
 
 [Rule]
-IP-ASN, 62014, 新加坡时延优选, no-resolve
-IP-ASN, 62041, 自动切换, no-resolve
-IP-ASN, 44907, 自动切换, no-resolve
-IP-ASN, 59930, 美国时延优选, no-resolve
-IP-ASN, 211157, 美国时延优选, no-resolve
-IP-CIDR, 5.28.192.0/18, 自动切换, no-resolve
-IP-CIDR, 109.239.140.0/24, 自动切换, no-resolve
+IP-ASN, 62014, 全球手动, no-resolve
+IP-ASN, 62041, 全球手动, no-resolve
+IP-ASN, 44907, 全球手动, no-resolve
+IP-ASN, 59930, 全球手动, no-resolve
+IP-ASN, 211157, 全球手动, no-resolve
+IP-CIDR, 5.28.192.0/18, 全球手动, no-resolve
+IP-CIDR, 109.239.140.0/24, 全球手动, no-resolve
