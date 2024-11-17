@@ -15,7 +15,7 @@ hostname =guide-acs4miniapp-inner.m.taobao.com
 
 [Rule]
 # 移除广告下发请求
-AND, ((URL-REGEX, ^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch), (USER-AGENT, Cainiao4iPhone*)), REJECT
+AND, ((URL-REGEX, ^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch), (USER-AGENT, %E6%B7%98%E5%AE%9D*)), REJECT
 DOMAIN, adsmind.ugdtimg.com, REJECT
 DOMAIN, amdc.m.youku.com, REJECT
 DOMAIN, apiv4-iyes.youku.com, REJECT
