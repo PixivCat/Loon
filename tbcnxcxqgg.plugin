@@ -6,12 +6,13 @@
 #!date = 2024-10-31 17:45:58
 
 [mitm]
-hostname =guide-acs4miniapp-inner.m.taobao.com
+hostname =guide-acs4miniapp-inner.m.taobao.com,mdap.alipay.com
 
 
 [Rewrite]
 #屏蔽淘宝菜鸟裹裹广告
 ^https:\/\/guide-acs4miniapp-inner.m.taobao.com\/gw\/mtop.cainiao.adx.flyad.getad.* url reject
+^https:\/\/mdap.alipay.com\/loggw\/dwcookieLogGet.do.* url reject
 
 [Rule]
 # 移除广告下发请求
